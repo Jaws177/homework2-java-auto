@@ -26,11 +26,14 @@
       },
       "balance": {
         "type": "integer",
-        "default": 0,
-        "name": ["RUR", "USD"]
+        "default": 0
       },
       "currency": {
-        "type": "string"
+        "type": "string",
+        "propertyNames": {
+          "pattern": "[RUR][USD]"
+        }
+
       }
     }
   }
