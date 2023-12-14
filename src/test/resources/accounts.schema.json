@@ -26,7 +26,8 @@
       },
       "balance": {
         "type": "integer",
-        "default": 0
+        "default": 0,
+        "name": ["RUB", "USD"]
       },
       "currency": {
         "type": "string"
